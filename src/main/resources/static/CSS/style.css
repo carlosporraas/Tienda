@@ -54,7 +54,31 @@ body{
     width: 100%;
     bottom: 0px;
 }
+h3{
+    color: floralwhite;
+}
 
-nav a {
-    color: lawngreen;
+
+h2{
+    color: fuchsia;
+}
+
+.texto_centrado{
+    text-align: center;
+}
+
+.texto_derecho{
+    text-align: right;
+}
+
+tbody tr:nth-child(odd){ 
+    background-color: forestgreen;
+}
+
+tbody tr:nth-child(even){ 
+    background-color: salmon;
+}
+
+nav a{
+    color: blanchedalmond;
 }
