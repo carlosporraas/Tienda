@@ -1,70 +1,64 @@
 <!DOCTYPE html>
-
-<!-- Primer Trabajo en HTML -->
+<!-- Jonathan Quesada -->
 <html>
-    <meta charset="UTF-8">
-
-    <link href="CSS/style.css" rel="stylesheet" type="text/css"/>
-
-    <!-- <style>       
-               h1{
-                   background-color: lemonchiffon;
-                   font-family: sans-serif;
-               }
+    <head lang="es">
+        <title>GoOnline</title>
+        <meta charset="UTF-8">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <!-- 
+        <style>
+            h1 {
+                background-color: lightgreen;
+                font-family: sans-serif;
+            }
             
             p {
-                color: lawngreen;
-                background-color: skyblue;
-            }   
-        </style> -->
+                color: #ff7ae3;
+                background-color: lightcyan;
+            }
+        </style>
+        -->
 
-
-    <head>
-        <title>Tienda en Linea </title>
     </head>
     <body>
 
-    <head lang="es">
-    <header class = "header">
-        <!-- <h1 style = "color: firebrick; text-align: center"> Go_Online</h1> -->
-        <h1 title = "Hola"> Go_Online</h1>
+        <header class="header">
+            <h1>GoOnline</h1>
+            <!-- <h1 style="color: lightcoral; text-align: center" >GoOnline</h1> -->
+            <nav>
+                <a href="ejemplo5.html">Atras</a>
+                <a href="index_2.html">Home</a>
+                <a href="ejemplo1.html">Siguiente</a>
+            </nav>
+        </header>
 
-        <nav>
-            <a href="ejemplo5.html">Atras</a>
-            <a href="index_2.html">Home</a>
-            <a href="ejemplo1.html">Adelante</a>
-        </nav>
-    </header>
+        <aside class="aside">
+            <h2>Noticias y ofertas</h2>
+            <p>PlayStation 5, Solo 6 unidades disponibles</p>
+            <p>Apple AirPods, 10% de descuento</p>
+        </aside>
 
+        <section class="contenido">
+            <h2>Audio</h2>
 
-    <aside class ="aside">
-        <h2> Noticias y Ofertas</h2>
-        <p>PlayStation 5, Solo 5 unidades disponibles</p>
-        <p>Apple AirPods, 10 unidades disponibles</p>
-    </aside>
+            <article>
+                <header>
+                    <h3>Musica Celta</h3>
+                </header>
 
-
-    <section class = "section">    
-        <h2>Audio</h2>
-
-        <article>
-            <header>Musica Celta</header>
-
-            <audio controls>
-                <source src="audios/musica.mp3" type="audio/mpeg">
-                Your browser does not support the <code>audio</code> tag.
-            </audio>
-            
-            
-        </article>
+                <audio controls>
+                    <source src="audios/musica.mp3" type="audio/mpeg">
+                    Your browser does not support the <code>audio</code> tag.
+                </audio>
+                
+            </article>
 
 
-    </section>
+        </section>
 
-    <footer class="footer">
+        <footer class="footer">
+            <p>Todos los derechos reservados &COPY; 2023 | GoOnline</p>
+        </footer>
 
-        <p>Derechos Reservados &COPY; 2023 | GO_Online | Carlos Porras</p>
-
-    </footer>
-
+    </body>
 </html>

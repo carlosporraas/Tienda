@@ -1,87 +1,81 @@
-/*Nombre: Carlos
-Esto es un comentario*/
+/*
+Nombre: Jonathan Quesada
+Esto es un comentario
+*/
 
-*{
-    margin :0;
+* {
+    margin: 0;
     box-sizing: border-box;
-
 }
 
-body{
+body {
     background-color: lightblue;
-    font-family: serif;
-    padding: 90px 0px 20px 0px;
-    /*  padding-top: 10px;
-        padding-right: 43px;
-        padding-bottom: 14px;
-        padding-left: 123px;
-    */
-}
-.nav_menu{
-    display: flex;
-    margin-right: 40px;
-    list-style: none;
+    font-family: sans-serif;
+    padding: 80px 0px 20px 0px;
 }
 
-.nav_menu_item{
-    font-size: 18px;
-    margin: 0 10px;
-    line-height: 80px;
-    width: max-content;
-}
-
-.nav_menu_link{
-    padding: 8px 12px;
-    border-radius: 4px;
-}
-
-
-.nav_menu_link:hover{
-    background-color: lightcoral;
-    transition: 0.5s;
-}
-
-
-.header{
-    background-color: black;
+.header {
+    background-color: #076AF0;
     height: 80px;
     position: fixed;
-    top: 0px;
+    top: 0;
     right: 0;
-    left: 0px;
+    left: 0;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
     max-height: 992px;
     margin: 0 auto;
 }
 
-.logo{
-    
+.logo {
     font-size: 30px;
     font-weight: bold;
     padding: 0 40px;
     line-height: 80px;
 }
 
-.nav_link{
-    color: wheat;
+.nav_link {
+    color: white;
     text-decoration: none;
+}
+
+.nav_menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav_menu_item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    width: max-content;
+}
+
+.nav_menu_link {
+    padding: 8px 12px;
+    border-radius: 4px; 
+}
+
+.nav_menu_link:hover {
+    background-color: #024070;
+    transition: 0.5s;
 }
 
 
 .aside {
-    background-color: darkgoldenrod;
+    background-color: lightgrey;
     position: fixed;
     top: 80px;
     width: 20%;
-    bottom: 20px;
+    bottom: 20px
 }
 
-
-.section{
-    background-color: darkorchid;
+.contenido {
+    background-color: lightpink;
     position: fixed;
     top: 80px;
     right: 0;
@@ -91,34 +85,42 @@ body{
     padding: 20px;
 }
 
-.footer{
-    background-color: khaki;
+.footer {
+    background-color: lightseagreen;
     height: 20px;
     position: fixed;
     width: 100%;
-    bottom: 0px;
-}
-h3{
-    color: floralwhite;
+    bottom: 0;
 }
 
-
-h2{
-    color: fuchsia;
+.article {
+    margin-bottom: 35px;
 }
 
-.texto_centrado{
+h2 {
+    color: lightseagreen;
+}
+
+h3 {
+    color: lightskyblue
+}
+
+.texto_centrado {
     text-align: center;
 }
 
-.texto_derecho{
+.texto_derecho {
     text-align: right;
 }
 
-tbody tr:nth-child(odd){
-    background-color: forestgreen;
+tbody tr:nth-child(odd) {
+    background-color: #89aa34;
 }
 
-tbody tr:nth-child(even){
-    background-color: salmon;
+tbody tr:nth-child(even) {
+    background-color: #34ea89;
 }
+
+
+
+
