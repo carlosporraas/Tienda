@@ -32,7 +32,7 @@ public class PruebasController {
         var productos = productoService.getProductos(false);
         var categorias = categoriaService.getCategorias(true);
         model.addAttribute("productos", productos);
-        model.addAttribute("totalProductos", productos.size());
+        model.addAttribute("totalProductoos", productos.size());
         model.addAttribute("categorias", categorias);
         return "/pruebas/listado";
     }
