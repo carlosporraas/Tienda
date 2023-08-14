@@ -15,7 +15,7 @@ public class ProductoServiceImpl implements ProductoService {
     private ProductoDao categoriaDao;
 
     @Override
-   
+
     public List<Producto> getProductos(boolean activos) {
         var lista = categoriaDao.findAll();
 
@@ -26,8 +26,8 @@ public class ProductoServiceImpl implements ProductoService {
 
         return lista;
     }
-    
- @Override
+
+    @Override
     @Transactional(readOnly = true)
     public Producto getProducto(Producto categoria) {
 
@@ -45,5 +45,20 @@ public class ProductoServiceImpl implements ProductoService {
     @Transactional
     public void delete(Producto categoria) {
         categoriaDao.delete(categoria);
+    }
+
+    @Override
+    public List<Producto> getByPrecio(double precioInf, double precioSup) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public List<Producto> metodoJPQL(double precioInf, double precioSup) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public List<Producto> consultaNativo(double precioInf, double precioSup) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }

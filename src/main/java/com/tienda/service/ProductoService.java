@@ -1,6 +1,5 @@
 package com.tienda.service;
 
-
 import com.tienda_v2.domain.Producto;
 import java.util.List;
 
@@ -18,4 +17,13 @@ public interface ProductoService {
 
     // Se elimina el categoria que tiene el id pasado por parÃ¡metro
     public void delete(Producto categoria);
+
+    public List<Producto> getByPrecio(double precioInf, double precioSup);
+
+    //Lista de productos utilizando consultas con JPQL    
+    public List<Producto> metodoJPQL(double precioInf, double precioSup);
+
+    //Lista de productos utilizando consultas con SQL Nativo
+    public List<Producto> consultaNativo(double precioInf, double precioSup);
+
 }
